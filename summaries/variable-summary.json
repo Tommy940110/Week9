@@ -1,0 +1,48 @@
+{
+  "description": "Summary of each variable in tidy_data_practice including type, missing values, and basic stats",
+  "operations": "map, conditional type checking, summary functions, jsonlite::write_json",
+  "summary": {
+    "月別": [
+      {
+        "class": "Date",
+        "missing": 0,
+        "summary": {
+          "min": "2024-01-01",
+          "max": "2025-01-01",
+          "n_unique": 13
+        }
+      }
+    ],
+    "股價": [
+      {
+        "class": "numeric",
+        "missing": 0,
+        "summary": {
+          "min": 237,
+          "max": 44911,
+          "mean": 15466.0615,
+          "median": 11919,
+          "sd": 14197.127
+        }
+      }
+    ],
+    "股價指數": [
+      {
+        "class": "factor",
+        "missing": 0,
+        "summary": {
+          "台灣-加權指數": 13,
+          "台灣-上櫃指數": 13,
+          "美國-那斯達克指數": 13,
+          "美國-道瓊工業指數": 13,
+          "日本-日經225指數": 13,
+          "新加坡-海峽時報指數": 13,
+          "南韓-綜合指數": 13,
+          "倫敦-金融時報指數": 13,
+          "中國-上海綜合指數": 13,
+          "中國-香港恆生指數": 13
+        }
+      }
+    ]
+  }
+}

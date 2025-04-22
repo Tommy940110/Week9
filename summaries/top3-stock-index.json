@@ -1,0 +1,18 @@
+{
+  "description": "Top 3 stock indices with the highest average stock price",
+  "operations": "group_by, summarise, arrange, slice_head",
+  "summary": [
+    {
+      "股價指數": "美國-道瓊工業指數",
+      "avg_price": 40851.7692
+    },
+    {
+      "股價指數": "日本-日經225指數",
+      "avg_price": 38825
+    },
+    {
+      "股價指數": "台灣-加權指數",
+      "avg_price": 21545.3077
+    }
+  ]
+}
