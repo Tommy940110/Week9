@@ -16,3 +16,11 @@ The top three indices by average value, highlighted in `top3-stock-index.json`, 
 The temporal trend in the global stock market is examined by aggregating the average monthly stock prices across all indices. As detailed in `monthly-mean-stock.json`, the average monthly stock price increased steadily from 13,928.3 in January 2024 to 16,604.5 in January 2025. This upward trend indicates broad-based market optimism, which may reflect global macroeconomic recovery, monetary policy shifts, or investor sentiment. The accompanying rise in standard deviation—from 13,760 in early 2024 to over 15,800 in early 2025—suggests growing divergence across markets or increased volatility.
 
 Overall, the dataset offers valuable insight into the comparative and dynamic behavior of major stock indices in 2024–2025. The clean structure and rich temporal and cross-sectional variation make it suitable for econometric modeling and financial market analysis.
+
+# References
+
+- [Codebook](https://github.com/Tommy940110/Week9/blob/main/每月國際主要股價指數_codebook.md)
+- [variable-summary](https://github.com/Tommy940110/Week9/blob/main/summaries/variable-summary.json)
+- [average-stock-by-index](https://github.com/Tommy940110/Week9/blob/main/summaries/average-stock-by-index.json)
+- [top3-stock-index](https://github.com/Tommy940110/Week9/blob/main/summaries/top3-stock-index.json)
+- [monthly-mean-stock](https://github.com/Tommy940110/Week9/blob/main/summaries/monthly-mean-stock.json)
